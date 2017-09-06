@@ -1,0 +1,3138 @@
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+nav {
+  height: 130px;
+  background: #f05223;
+  width: 100%;
+  background: url("./assets/bgbg.png");
+  position: absolute;
+}
+
+
+.searchWrapper {
+  margin-left: 27%;
+  margin-top: 30px;
+}
+
+.searchButton {
+  background: #f05223;
+}
+
+.line {
+  clear: both;
+  margin-top: 20px;
+  text-align: center;
+  height: 120px;
+}
+
+
+
+
+
+.logo {
+  margin: 50px 0 0 65px;
+  width: 270px;
+}
+
+
+
+ul li {
+  display: inline;
+  padding: 16px;
+
+}
+
+ul>li>a {
+  display: inline;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+ul>li>a:hover {
+  background-color: transparent;
+  color: #383b3f;
+  text-decoration: none;
+}
+.navigation {
+  margin-top: 70px;
+  float: right;
+  margin-right: 10%;
+}
+
+.content {
+  color: white;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: auto;
+}
+
+
+.carouselWrapper {
+  padding: 0;
+  margin-top: 130px;
+  width: 100%;
+}
+
+.carousel-caption {
+  margin-top: 0;
+  width: 30%;
+  margin-left: 60%;
+}
+
+.carouselMessage {
+  width: 45%;
+  height: 45px;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  opacity: 0.7;
+  text-align: center;
+  line-height: 150%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+
+}
+
+
+
+section {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 500px;
+
+}
+
+
+
+.title {
+  margin-top: 20px;
+}
+
+.container {
+  float: left;
+}
+
+.restaurantName {
+  font-size: 14px;
+  color: #383b3f;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 500;
+  color: #f05223;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.imageWrapper {
+  position: relative;
+  width: 50%
+}
+
+.space {
+  height: 30px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 4%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.imageWrapper:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: #383b3f;
+  font-size: 20px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+#boxshadow {
+  box-shadow: 5px 5px 5px #383b3f;
+}
+
+
+
+.deliwrapper {
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+
+}
+
+.delimon {
+  background-color: #e8e8e8;
+  height: 500px;
+  width: 100%;
+}
+
+.delicacy {
+  background: url("./assets/delicacy.png") right bottom;
+  background-color: #f8f8f8;
+  height: 500px;
+  width: 100%;
+}
+
+.deliverymon {
+  background: url("./assets/deliverymon.png") bottom;
+  background-color: #edeeef;
+  height: 500px;
+  width: 100%;
+}
+
+.deliText {
+  color: #f05223;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.deliTextDescription {
+  color: #383b3f;
+  font-size: 13px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.sendInput {
+  width: 450px;
+  margin-top: 30px;
+  margin-left: 20%;
+}
+
+
+
+.sendButton {
+  color: white;
+  background-color: #f05223;
+}
+
+.downImage {
+  margin-top: 70px;
+  margin-left: 25%;
+}
+
+.downImageImage {
+ text-align: center;
+
+}
+
+.downImageDescription {
+  color: #383b3f;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.downImageLink {
+  text-decoration: none;
+  color: #383b3f;
+}
+
+.downImageLink:hover {
+  color: #cf0021;
+}
+
+.delicacyRegister {
+  margin: 70px 0 0 22%;
+  color: #f05223;
+  width: 60%;
+  height: 40px;
+  border: 1px solid #f05223;
+  background-color: white;
+}
+
+.delicacyButton {
+  font-family: 'Roboto', sans-serif;
+  color: #f05223;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 2%;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.delicacyRegister:hover {
+  background-color: #f05223;
+}
+
+.delicacyButton:hover {
+  color:white;
+  text-decoration: none;
+}
+
+
+
+.companyIntro {
+  width: 100%;
+  background-color: white;
+  height: 500px;
+}
+
+.deliTextCompany {
+  color: #f05223;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 60px;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.deliTextDescriptionCompany {
+  color: #383b3f;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.companyIntroWrapper {
+  margin-top: 90px;
+  margin-left: 30%;
+  text-align: center;
+}
+
+.where {
+  width: 220px;
+  float: left;
+}
+
+.whereTitle {
+  font-size: 18px;
+  color: #f05223;
+  font-family: 'Roboto', sans-serif;
+}
+
+.whereText {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.arrow {
+  width: 50px;
+  float: left;
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #f05223;
+}
+
+.contactUs {
+  background-color: #e8e8e8;
+  height: 650px;
+}
+
+.contactUsText {
+  color: #f05223;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 70px;
+}
+
+.contactUsForm {
+  margin-top: 20px;
+  margin-left: 33%;
+}
+
+.contactUsLabel {
+  font-size: 14px;
+  color: #383b3f;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.contactUsInput {
+  width: 51%;
+}
+
+.contactUsButton {
+  width: 120px;
+  height: 40px;
+  border: #f05223 solid 1px;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 41.5%;
+}
+
+.contactUsSubmit {
+  color:#f05223;
+}
+
+.contactUsButton:hover {
+  background-color: #f05223;
+}
+.contactUsSubmit:hover {
+  color:white;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  clear: both;
+}
+
+
+.footerContent {
+  text-align: center;
+  margin-top: 70px;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.icons {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 15px;
+}
+
+
+
+.iconImage {
+  margin: 10px;
+  width: 45px;
+}
+
+.copyright {
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+
+}
+
+.video {
+  width: 100%;
+  text-align: center;
+  height: 750px;
+  background: #daf1f7;
+  background: url("./assets/videobg.png");
+}
+
+.videoFile {
+  margin-top: 160px;
+}
+
+.delimonDescription {
+  width: 100%;
+  height: 400px;
+}
+
+#delicacyDescription {
+  height: 300px;
+}
+
+.downloadWrapper {
+  margin-left: 31%;
+  margin-top: 65px;
+}
+
+.downloadApp {
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.downloadImage {
+  float: left;
+  width: 280px;
+}
+
+.apple {
+  width: 220px;
+}
+
+.delimonExtra {
+  width: 100%;
+  height: 580px;
+  background: #daf1f7;
+  text-align: center;
+}
+
+.wireframeWrapper {
+  width: 50%;
+  padding-top: 60px;
+  margin-left: 25%;
+}
+
+
+
+.phoneWireframe {
+  float: left;
+  width: 24%;
+  margin-top: 40px;
+}
+
+#phoneDescription {
+  margin-top: 15px;
+}
+
+.phoneText {
+  color: #f05223;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: -10px;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.aboutUs {
+  width: 100%;
+  height: auto;
+}
+
+.restaurantTitle {
+  margin-top: 180px;
+  width: 100%;
+}
+
+.restaurantMain {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: #f05223;
+  margin-left: 20%;
+}
+
+.whoWeare {
+  width: 100%;
+  margin-top: 30px;
+  height: auto;
+}
+
+.whoWrapper {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.whoTitle {
+  font-size: 18px;
+  color: #383b3f;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.whoText {
+  font-size: 15px;
+  color: #383b3f;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -5px;
+  line-height: 140%;
+}
+
+.benefit {
+  width: 100%;
+  margin-top: 55px;
+  height: auto;
+}
+
+.benefitImage {
+  width: 100%;
+}
+
+.brandWrapper {
+  width: 40%;
+  margin-left: 30%;
+  height: 270px;
+  margin-top: 70px;
+}
+
+.brand {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.brandGuide {
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+
+#whoText2 {
+  margin-top: 36px;
+}
+
+#whoText3 {
+  margin-top: 30px;
+}
+
+#whoWeare2 {
+  background: #c4daf1;
+  text-align: center;
+  padding-top: 20px;
+  background: url("./assets/videobg.png");
+  height: 350px;
+}
+
+.restaurantMain2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  color: #f05223;
+  padding-top: 20px;
+}
+
+
+
+
+
+
+button.accordion {
+    background-color: white;
+    color: #383b3f;
+    cursor: pointer;
+    padding: 0 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    transition: 0.4s;
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+}
+
+
+
+button.accordion:after {
+    content: '\002B';
+    font-weight: bold;
+    float: right;
+    margin-left: 10px;
+
+}
+
+button.accordion.active:after {
+    content: "\2212";
+    color: #f05223;
+}
+
+
+
+
+div.panel {
+    padding: 0 3px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.panelList {
+  text-decoration: none;
+  height: 40px;
+  list-style: none;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10px;
+  width: 95%;
+  padding-top: 5px;
+}
+
+.panelMenu {
+  margin-left: 10px;
+  color: #696f78;
+}
+
+.panelMenu:hover {
+  color: #f05223;
+  text-decoration: none;
+
+}
+
+.restaurantWrapper {
+  width: 100%;
+  float: left;
+  height: auto;
+
+}
+
+.sideDropdown {
+  width: 20%;
+  margin-left: 2%;
+  margin-top: 20px;
+  height: 1300px;
+  background: white;
+}
+
+
+
+
+
+.productImage {
+  width: 82%;
+  float: left;
+}
+
+.locationTitle {
+  width: 100%;
+  margin-top: 25px;
+  padding: 0;
+}
+
+.location {
+  font-size: 15px;
+  width: 80%;
+  margin-left: 20%;
+  font-family: 'Roboto', sans-serif;
+  color: #696f78;
+  font-weight: 500;
+}
+
+#sideDropdown {
+  width: 17%;
+  float: left;
+}
+
+#location {
+  width: 50%;
+  margin-left: 3%;
+}
+
+#restaurantMain {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: #f05223;
+  margin-left: 6%;
+}
+
+
+#restaurantWrapper {
+width: 100%;
+  height: auto;
+  margin-left: 3.2%;
+  padding-bottom: 100px;
+}
+
+.restaurantWrapper1 {
+  width: 100%;
+  height: auto;
+
+}
+
+
+
+#sideDropdownSide {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20px;
+  height: auto;
+  background: white;
+  padding-bottom: 100px;
+}
+
+
+.restaurantHead {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #f05223;
+  margin-left: 3%;
+  margin-top: 30px;
+}
+
+.promotionHead {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #383b3f;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.restaurantInformation {
+  width: 99%;
+  margin-left: 3%;
+  float: left;
+}
+
+.informationNow {
+  margin-left: 3%;
+}
+
+.restaurantAddress {
+  margin-top: 15px;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #383b3f;
+
+}
+
+.logoIconSocialMedia {
+  padding: 11px 0;
+}
+
+.socialMedia {
+  padding-right: 8px;
+}
+
+.restaurantHours {
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #383b3f;
+
+}
+
+.restaurantPromotion {
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #383b3f;
+
+}
+
+
+
+.restaurantMenu {
+  width: 70%;
+  float: left;
+  height: auto;
+  margin-left: 6%;
+}
+
+.mainPicture {
+  width: 25%;
+}
+
+.menuTitle {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+.menuWrapper {
+  width: 100%;
+}
+
+.foodWrapper {
+  width: 27%;
+  padding: 0;
+  float: left;
+  text-align: center;
+  height: 410px;
+}
+
+.menuPrice {
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #f05223;
+  margin-top: -5px;
+}
+.menuDescription {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -10px;
+}
+
+
+
+
+@media only screen and (max-width: 2880px)  {
+
+  .companyIntro {
+    width: 100%;
+    background-color: white;
+    height: 460px;
+  }
+
+  .companyIntroWrapper {
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 37%;
+  }
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 44.5%;
+  }
+
+  .downImage {
+    margin-top: 70px;
+    margin-left: 21%;
+  }
+
+}
+
+@media only screen and (max-width: 1925px)  {
+
+  .companyIntro {
+    width: 100%;
+    background-color: white;
+    height: 460px;
+    text-align: center;
+  }
+
+  .companyIntroWrapper {
+    width: 55%;
+    margin-top: 60px;
+    margin-left: 30%;
+  }
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 41.5%;
+  }
+
+
+}
+
+@media only screen and (max-width: 1680px)  {
+
+  .companyIntro {
+    width: 100%;
+    background-color: white;
+    height: 460px;
+  }
+
+  .companyIntroWrapper {
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 26%;
+  }
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 40%;
+  }
+
+  .downImage {
+    margin-top: 70px;
+    margin-left: 21%;
+  }
+
+  .downloadWrapper {
+    margin-left: 30%;
+    margin-top: 65px;
+  }
+
+  .foodWrapper {
+    width: 27%;
+    padding: 0;
+    float: left;
+    text-align: center;
+    height: 380px;
+  }
+
+
+}
+
+@media only screen and (max-width: 1600px)  {
+
+  .companyIntro {
+    width: 100%;
+    background-color: white;
+    height: 460px;
+  }
+
+  .companyIntroWrapper {
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 26%;
+  }
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 39.5%;
+  }
+
+  .phoneImage {
+    width: 180px;
+  }
+
+  .downloadWrapper {
+    margin-left: 28%;
+    margin-top: 65px;
+  }
+
+  .foodWrapper {
+    width: 27%;
+    padding: 0;
+    float: left;
+    text-align: center;
+    height: 370px;
+  }
+
+}
+
+@media only screen and (max-width: 1440px)  {
+
+  .companyIntro {
+    width: 100%;
+    background-color: white;
+    height: 460px;
+  }
+
+  .companyIntroWrapper {
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 24%;
+  }
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 38.5%;
+  }
+
+  .phoneImage {
+    width: 90%;
+  }
+
+}
+
+@media only screen and (max-width: 1366px)  {
+
+  .companyIntro {
+    width: 100%;
+    background-color: white;
+    height: 460px;
+  }
+
+  .companyIntroWrapper {
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 28%;
+  }
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 37.5%;
+  }
+
+  #circleImage {
+    width: 100px;
+  }
+
+  .where {
+    width: 150px;
+  }
+
+  .downImage {
+    margin-top: 60px;
+    margin-left: 17%;
+  }
+
+  .downloadWrapper {
+    margin-left: 24%;
+    margin-top: 65px;
+  }
+
+  .foodWrapper {
+    width: 27%;
+    padding: 0;
+    float: left;
+    text-align: center;
+    height: 315px;
+  }
+
+  .socialMedia {
+    width: 45px;
+  }
+
+  .phoneImage {
+    width: 90%;
+  }
+
+}
+
+@media only screen and (max-width: 1284px)  {
+
+  .companyIntro {
+    width: 100%;
+    background-color: white;
+    height: 460px;
+  }
+
+  .companyIntroWrapper {
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 28%;
+  }
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 36.5%;
+  }
+
+  #circleImage {
+    width: 100px;
+  }
+
+  .where {
+    width: 150px;
+  }
+
+  .downImage {
+    margin-top: 60px;
+    margin-left: 18%;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo {
+    width: 270px;
+    margin: 50px 0 0 20px;
+  }
+
+
+
+  ul>li>a {
+    display: inline;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 300;
+  }
+
+  ul li {
+    display: inline;
+    padding: 10px;
+
+  }
+
+  .navigation {
+    margin-top: 70px;
+    float: right;
+  }
+
+  section {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 500px
+  }
+
+  .downImage {
+    margin-top: 25px;
+    margin-left: 15%;
+  }
+
+
+  .downImageDescription {
+    color: #383b3f;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+
+  }
+
+  .downImageImage {
+   width: 55px;
+
+
+  }
+
+  #appleImage {
+    width: 51px;
+  }
+
+  .delicacyButton {
+    font-family: 'Roboto', sans-serif;
+    color: #f05223;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  .deliTextCompany {
+    color: #f05223;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .deliTextDescriptionCompany {
+    color: #383b3f;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .where {
+    width: 140px;
+
+  }
+
+  #appleImage {
+    width: 95px;
+  }
+
+
+  .companyIntro {
+    width: 100%;
+    background-color: white;
+    height: 460px;
+  }
+
+  .companyIntroWrapper {
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 25%;
+  }
+
+
+
+  .contactUsForm {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 25%;
+  }
+
+  .contactUsLabel {
+    font-size: 14px;
+    color: #383b3f;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    font-weight: 500;
+  }
+
+  .contactUsInput {
+    width: 70%;
+  }
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 54.5%;
+  }
+
+  .downloadApp {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .downloadImage {
+    float: left;
+    width: 230px;
+  }
+
+  .apple {
+    width: 200px;
+  }
+
+  .downloadWrapper {
+    margin-left: 21%;
+    margin-top: 55px;
+  }
+
+
+  .wireframeWrapper {
+    width: 70%;
+    padding-top: 60px;
+    margin-left: 15%;
+  }
+
+  .phoneImage {
+    width: 150px;
+  }
+
+  .phoneWireframe {
+    float: left;
+    width: 24%;
+    margin-top: 50px;
+  }
+
+  .foodWrapper {
+    width: 27%;
+    padding: 0;
+    float: left;
+    text-align: center;
+    height: 290px;
+  }
+
+
+  .socialMedia {
+    width: 36px;
+    padding-right: 3px;
+  }
+
+
+}
+
+@media only screen and (max-width: 990px) {
+  .logo {
+    width: 250px;
+    margin: 50px 0 0 20px;
+  }
+
+
+
+  ul>li>a {
+    display: inline;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 300;
+  }
+
+  ul li {
+    display: inline;
+    padding: 10px;
+
+  }
+
+  .navigation {
+    margin-top: -20px;
+    float: right;
+  }
+
+  section {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 500px
+  }
+
+  .delimon {
+    margin-top: -40px;
+    width: 100%;
+  }
+
+  .deliText {
+    padding-top: 30px;
+  }
+
+  .deliTextDescription {
+    padding-top: 15px;
+  }
+
+  .downImage {
+    margin-top: 50px;
+    margin-left: 13%;
+    width: 100%;
+  }
+
+
+  .downImageDescription {
+    color: #383b3f;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+
+  }
+
+  .downImageImage {
+   width: 100px;
+
+
+  }
+
+
+
+  #appleImage {
+    width: 95px;
+  }
+
+  .delicacy {
+    margin-top: -45px;
+    height: 400px;
+  }
+
+  .deliverymon {
+    margin-top: -40px;
+    height: 400px;
+  }
+
+  .delicacyRegister {
+    padding-right: 10px;
+  }
+
+  .delicacyButton {
+    font-family: 'Roboto', sans-serif;
+    color: #f05223;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  .deliTextCompany {
+    color: #f05223;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .deliTextDescriptionCompany {
+    color: #383b3f;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .where {
+    width: 140px;
+
+  }
+
+
+  .companyIntro {
+    width: 100%;
+    background-color: white;
+    height: 460px;
+    margin-top: 850px;
+  }
+
+  .companyIntroWrapper {
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 25%;
+  }
+
+
+
+  .contactUsForm {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 25%;
+  }
+
+  .contactUsLabel {
+    font-size: 14px;
+    color: #383b3f;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    font-weight: 500;
+  }
+
+  .contactUsInput {
+    width: 70%;
+  }
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 54.5%;
+  }
+
+  .downloadApp {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .downloadImage {
+    float: left;
+    width: 230px;
+  }
+
+  .apple {
+    width: 200px;
+  }
+
+  .downloadWrapper {
+    margin-left: 20%;
+    margin-top: 55px;
+  }
+
+
+  .wireframeWrapper {
+    width: 70%;
+    padding-top: 60px;
+    margin-left: 15%;
+  }
+
+  .phoneImage {
+    width: 150px;
+  }
+
+  .phoneWireframe {
+    float: left;
+    width: 24%;
+    margin-top: 50px;
+  }
+
+  .socialMedia {
+    width: 35px;
+  }
+
+}
+
+@media only screen and (max-width:883px) {
+
+  .logo {
+    width: 200px;
+    margin: 25px 0 0 310px;
+    float: left;
+  }
+
+
+
+  .navigation {
+    margin-top: 20px;
+    padding-left: 110px;
+    width: 70%;
+    height: 20px;
+  }
+
+  ul li {
+    padding: 10px;
+
+  }
+
+  ul>li>a {
+    display: inline;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+
+
+
+  .carouselMessage {
+    width: 120px;
+    height: 35px;
+    font-size: 8px;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
+    margin-top: 30px;
+
+
+
+  }
+
+  section {
+    margin-top: -15px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 400px
+  }
+
+  .delimon {
+    background-color: #e8e8e8;
+    height: 400px;
+    width: 100%;
+    padding: 0;
+    margin-top: -80px;
+
+  }
+
+
+
+  .delicacy {
+    background: url("./assets/delicacy.png") no-repeat bottom;
+    background-color: #f8f8f8;
+    height: 500px;
+    width: 100%;
+    margin-top: -60px;
+    text-align: center;
+
+  }
+
+  .deliverymon {
+    background: url("./assets/deliverymon.png") bottom;
+    background-color: #e8e8e8;
+    height: 500px;
+    width: 100%;
+    margin-top: -60px;
+  }
+
+
+  .downImage {
+    margin-top: -190px;
+    margin-left: 15%;
+    text-align: center;
+    width: 80%;
+  }
+
+
+  .downImageDescription {
+    color: #383b3f;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+
+  }
+
+  .downWrapper {
+    float: left;
+    width: 30%;
+  }
+
+
+  #appleImage {
+    width: 75px;
+  }
+
+  .downImageImage {
+   width: 80px;
+
+
+  }
+
+  .deliText {
+    color: #f05223;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 60px;
+    height: 20px;
+    font-family: Roboto;
+    padding-top: 25px;
+    margin-left: 10px;
+  }
+
+  .deliTextDescription {
+    padding-top: 25px;
+    margin-left: 10px;
+  }
+
+  .delicacyButton {
+    font-family: 'Roboto', sans-serif;
+    color: #f05223;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
+
+  .delicacyRegister {
+    margin-top: -130px;
+  }
+
+  .companyIntro {
+    width: 100%;
+    background-color: white;
+    height: 400px;
+    margin-top: 1040px;
+  }
+
+  .deliTextCompany {
+    color: #f05223;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    padding-left: 90px;
+  }
+
+  .deliTextDescriptionCompany {
+    color: #383b3f;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  .companyIntroWrapper {
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 26%;
+    text-align: center;
+  }
+
+
+
+  #circleImage {
+    width: 90px;
+  }
+
+  .where {
+    width: 100px;
+    float: left;
+  }
+
+  .whereTitle {
+    font-size: 15px;
+    color: #f05223;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .whereText {
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .arrow {
+    width: 50px;
+    float: left;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #f05223;
+  }
+
+  .contactUsLabel {
+    font-size: 12px;
+    color: #383b3f;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 11px;
+    font-weight: 500;
+  }
+
+  .contactUsInput {
+    width: 80%;
+  }
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 60.5%;
+  }
+
+  .contactUsForm {
+    margin-top: 20px;
+    margin-left: 18%;
+  }
+
+  .deliTextCompany {
+    color: #f05223;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 7%;
+    margin-top: 20px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  .downloadImage {
+    width: 230px;
+    height: 80px;
+  }
+
+  .apple {
+    width: 200px;
+  }
+
+  .downloadWrapper {
+    margin-left: 25%;
+    margin-top: 55px;
+  }
+
+  .videoFile {
+    width: 520px;
+    height: 294px;
+  }
+
+  .video {
+    height: 490px;
+  }
+
+  .deliTextDescriptionCompany {
+    font-size: 12px;
+  }
+
+  .deliTextDescription {
+    height: 300px;
+  }
+
+  .downloadWrapper {
+    margin-left: 25%;
+    margin-top: 55px;
+  }
+
+
+  .wireframeWrapper {
+    width: 70%;
+  }
+
+  .phoneImage {
+    width: 100px;
+  }
+
+  .phoneWireframe {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5%;
+    height: 260px;
+  }
+
+  .delimonExtra {
+    width: 100%;
+    height: 1350px;
+    background: #e8e8e8;
+    text-align: center;
+  }
+
+  #phoneDescription {
+    font-size: 12px;
+    margin-top: -10px;
+  }
+
+  .foodWrapper {
+    width: 27%;
+    padding: 0;
+    float: left;
+    text-align: center;
+    height: 250px;
+  }
+
+
+  .socialMedia {
+    padding-right: 4px;
+    width: 42px;
+  }
+
+  .restaurantAddress {
+    font-size: 12px;
+  }
+
+  .restaurantHours {
+    font-size: 12px;
+  }
+
+  .socialMedia {
+    width: 30px;
+  }
+
+
+}
+
+@media only screen and (max-width:800px) {
+
+  .logo {
+    width: 200px;
+    margin: 25px 0 0 280px;
+    float: left;
+  }
+
+
+
+  .navigation {
+    margin-top: 20px;
+    padding-left: 50px;
+    width: 70%;
+    height: 20px;
+  }
+
+  ul li {
+    padding: 10px;
+
+  }
+
+  ul>li>a {
+    display: inline;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+
+
+
+  .carouselMessage {
+    width: 120px;
+    height: 35px;
+    font-size: 8px;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
+    margin-top: 30px;
+
+
+
+  }
+
+  section {
+    margin-top: -15px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 400px
+  }
+
+  .delimon {
+    background-color: #e8e8e8;
+    height: 400px;
+    width: 100%;
+    padding: 0;
+    margin-top: -80px;
+
+  }
+
+
+
+  .delicacy {
+    background: url("./assets/delicacy.png") no-repeat bottom;
+    background-color: #f8f8f8;
+    height: 500px;
+    width: 100%;
+    margin-top: -60px;
+    text-align: center;
+
+  }
+
+  .deliverymon {
+    background: url("./assets/deliverymon.png") bottom;
+    background-color: #e8e8e8;
+    height: 500px;
+    width: 100%;
+    margin-top: -60px;
+  }
+
+
+  .downImage {
+    margin-top: -190px;
+    margin-left: 15%;
+    text-align: center;
+    width: 80%;
+  }
+
+
+  .downImageDescription {
+    color: #383b3f;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+
+  }
+
+  .downWrapper {
+    float: left;
+    width: 30%;
+  }
+
+
+  #appleImage {
+    width: 75px;
+  }
+
+  .downImageImage {
+   width: 80px;
+
+
+  }
+
+  .deliText {
+    color: #f05223;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 60px;
+    height: 20px;
+    font-family: Roboto;
+    padding-top: 25px;
+    margin-left: 10px;
+  }
+
+  .deliTextDescription {
+    padding-top: 25px;
+    margin-left: 10px;
+  }
+
+  .delicacyButton {
+    font-family: 'Roboto', sans-serif;
+    color: #f05223;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
+
+  .delicacyRegister {
+    margin-top: -130px;
+  }
+
+  .companyIntro {
+    width: 100%;
+    background-color: white;
+    height: 400px;
+    margin-top: 1040px;
+  }
+
+  .deliTextCompany {
+    color: #f05223;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    padding-left: 90px;
+  }
+
+  .deliTextDescriptionCompany {
+    color: #383b3f;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  .companyIntroWrapper {
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 24%;
+    text-align: center;
+  }
+
+
+
+  #circleImage {
+    width: 90px;
+  }
+
+  .where {
+    width: 100px;
+    float: left;
+  }
+
+  .whereTitle {
+    font-size: 15px;
+    color: #f05223;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .whereText {
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .arrow {
+    width: 50px;
+    float: left;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #f05223;
+  }
+
+  .contactUsLabel {
+    font-size: 12px;
+    color: #383b3f;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 11px;
+    font-weight: 500;
+  }
+
+  .contactUsInput {
+    width: 80%;
+  }
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 60.5%;
+  }
+
+  .contactUsForm {
+    margin-top: 20px;
+    margin-left: 18%;
+  }
+
+  .deliTextCompany {
+    color: #f05223;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 7%;
+    margin-top: 20px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  .downloadImage {
+    width: 230px;
+    height: 80px;
+  }
+
+  .apple {
+    width: 200px;
+  }
+
+  .downloadWrapper {
+    margin-left: 25%;
+    margin-top: 55px;
+  }
+
+  .videoFile {
+    width: 520px;
+    height: 294px;
+  }
+
+  .video {
+    height: 490px;
+  }
+
+  .deliTextDescriptionCompany {
+    font-size: 12px;
+  }
+
+  .deliTextDescription {
+    height: 300px;
+  }
+
+  .downloadWrapper {
+    margin-left: 25%;
+    margin-top: 55px;
+  }
+
+
+  .wireframeWrapper {
+    width: 70%;
+  }
+
+  .phoneImage {
+    width: 100px;
+  }
+
+  .phoneWireframe {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5%;
+    height: 260px;
+  }
+
+  .delimonExtra {
+    width: 100%;
+    height: 1350px;
+    background: #e8e8e8;
+    text-align: center;
+  }
+
+  #phoneDescription {
+    font-size: 12px;
+    margin-top: -10px;
+  }
+
+  .foodWrapper {
+    width: 33%;
+    padding: 0;
+    float: left;
+    text-align: center;
+    height: 300px;
+  }
+
+
+  .socialMedia {
+
+    width: 35px;
+    margin-top: 15px;
+  }
+
+  #sideDropdown {
+    width: 95%;
+    margin-left: 4%;
+    float: left;
+  }
+
+  #location {
+    width: 50%;
+    margin-left: 6%;
+  }
+
+  #restaurantMain {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #f05223;
+    margin-left: 10%;
+  }
+
+  #restaurantWrapper {
+  width: 90%;
+    height: 800px;
+    margin-left: 5%;
+  }
+
+
+  .restaurantHead {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #f05223;
+    margin-top: 30px;
+    margin-left: -1%;
+  }
+
+  .promotionHead {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #383b3f;
+  }
+
+
+  .restaurantInformation {
+    width: 100%;
+    float: left;
+    height: auto;
+  }
+
+  .informationNow {
+    margin: 0;
+    width: 100%;
+  }
+
+  .infoSection {
+    float: left;
+    width: 35%;
+  }
+
+  #infoSection {
+    width: 64%;
+  }
+
+  #headText {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .restaurantAddress {
+    margin-top: 15px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #383b3f;
+    margin-left: -2%;
+
+  }
+
+  .logoIconSocialMedia {
+    margin-top: 10px;
+  }
+
+  .restaurantHours {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #383b3f;
+    margin-left: -7px;
+
+  }
+
+  .restaurantPromotion {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #383b3f;
+
+  }
+
+
+
+  .restaurantMenu {
+    width: 90%;
+    float: left;
+    height: auto;
+    margin-left: 2%;
+    margin-top: -600px;
+  }
+
+  .mainPicture {
+    width: 25%;
+  }
+
+  .menuTitle {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: -10px;
+  }
+
+  .menuWrapper {
+    width: 100%;
+  }
+
+
+  .menuPrice {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #f05223;
+    margin-top: -5px;
+  }
+  .menuDescription {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -10px;
+  }
+
+  #restaurantWrapper {
+  width: 100%;
+    height: auto;
+    margin-left: 3.2%;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 720px)  {
+
+  .logo {
+    width: 200px;
+    margin: 25px 0 0 250px;
+  }
+
+
+  .downImage {
+    margin-top: -190px;
+    margin-left: 25%;
+    text-align: center;
+    width: 80%;
+  }
+
+
+  .downImageDescription {
+    color: #383b3f;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+
+  }
+
+  .downWrapper {
+    float: left;
+    width: 30%;
+  }
+
+
+  #appleImage {
+    width: 75px;
+  }
+
+  .downImageImage {
+   width: 80px;
+
+
+  }
+
+  .companyIntroWrapper {
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 20%;
+    text-align: center;
+  }
+
+
+
+
+  .navigation {
+    margin-top: 20px;
+    padding-left: 35px;
+    width: 70%;
+    height: 20px;
+  }
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 58%;
+  }
+
+  .icons {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 15px;
+  }
+
+
+
+  .iconImage {
+    margin: 10px;
+    width: 40px;
+  }
+
+  .restaurantPromotion {
+    font-size: 13px;
+  }
+
+  .icons {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 640px)  {
+
+
+
+
+  .downImage {
+    margin-top: -190px;
+    margin-left: 25%;
+    text-align: center;
+    width: 80%;
+  }
+
+
+  .downImageDescription {
+    color: #383b3f;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+
+  }
+
+  .downWrapper {
+    float: left;
+    width: 30%;
+  }
+
+
+  #appleImage {
+    width: 75px;
+  }
+
+  .downImageImage {
+   width: 80px;
+
+
+  }
+
+  .companyIntroWrapper {
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 17%;
+    text-align: center;
+  }
+
+  .logo {
+    width: 200px;
+    margin: 25px 0 0 200px;
+    float: left;
+  }
+
+
+
+  .navigation {
+    margin-top: 20px;
+    padding-left: 10%;
+    width: 80%;
+    height: 20px;
+  }
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 55%;
+  }
+
+  .icons {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 15px;
+  }
+
+
+
+  .iconImage {
+    margin: 5px;
+    width: 35px;
+  }
+
+  .foodWrapper {
+    width: 33%;
+    padding: 0;
+    float: left;
+    text-align: center;
+    height: 270px;
+  }
+
+  .menuTitle {
+    font-size: 12px;
+  }
+
+  .menuPrice {
+    font-size: 15px;
+  }
+
+  .restaurantMenu {
+
+    height: 1130px;
+
+  }
+
+
+
+
+}
+
+@media only screen and (max-width: 480px)  {
+
+  ul li {
+    display: inline;
+    padding: 7px;
+
+  }
+
+  ul>li>a {
+    display: inline;
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: -5px;
+  }
+
+
+  .downImage {
+    margin-top: -190px;
+    margin-left: 20%;
+    text-align: center;
+    width: 95%;
+  }
+
+
+  .downImageDescription {
+    color: #383b3f;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+
+  }
+
+  .downWrapper {
+    float: left;
+    width: 30%;
+  }
+
+
+  #appleImage {
+    width: 75px;
+  }
+
+  .downImageImage {
+   width: 80px;
+
+
+  }
+
+  .companyIntroWrapper {
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 17%;
+    text-align: center;
+  }
+
+  .logo {
+    width: 200px;
+    margin: 25px 0 0 200px;
+    float: left;
+  }
+
+
+
+  .navigation {
+    margin-top: 20px;
+    width: 90%;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 47.5%;
+  }
+
+  .companyIntroWrapper {
+    width: 70%;
+    margin-top: 60px;
+    margin-left: 15%;
+  }
+
+  #circleImage {
+    width: 55px;
+  }
+
+  .where {
+    width: 73px;
+  }
+
+  .whereTitle {
+    font-size: 12px;
+  }
+
+  .whereText {
+    font-size: 10px;
+  }
+
+  .logo {
+    width: 200px;
+    margin: 25px 0 0 120px;
+    float: left;
+  }
+
+
+
+  .navigation {
+    margin-top: 20px;
+    padding-left: 50px;
+    width: 80%;
+    height: 20px;
+  }
+
+  .icons {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15px;
+  }
+
+
+
+  .iconImage {
+    margin: 2px;
+    width: 35px;
+  }
+
+  #footerLogo {
+    width: 230px;
+  }
+
+  .benefitImage {
+    width: 280px;
+  }
+
+  .foodWrapper {
+    width: 33%;
+    padding: 0;
+    float: left;
+    text-align: center;
+    height: 230px;
+  }
+
+  .menuTitle {
+    font-size: 11px;
+  }
+
+  .restaurantWrapper {
+    width: 100%;
+    float: left;
+    height: auto;
+
+  }
+
+  .restaurantMenu {
+    margin-top: 50px;
+    height: auto;
+  }
+
+  .informationNow {
+    height: auto;
+  }
+
+  .sideDropdown {
+    height: auto;
+  }
+
+  #location {
+    margin-left: 7%;
+  }
+
+  .headText {
+    font-size: 18px;
+  }
+
+  #headText {
+    font-size: 14px;
+  }
+
+  .restaurantAddress {
+    font-size: 11px;
+  }
+
+  .restaurantHours {
+    font-size: 11px;
+  }
+
+  .restaurantPromotion {
+    font-size: 11px;
+  }
+
+  #infoSection {
+    width: 58%;
+  }
+
+}
+
+@media only screen and (max-width: 433px)  {
+
+
+  .logo {
+    width: 150px;
+    margin: 25px 0 0 120px;
+    float: left;
+  }
+
+  .logoWrapper {
+    text-align: center;
+  }
+
+
+  .navigation {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 30px;
+  }
+
+
+  ul li {
+    padding: 6px;
+
+  }
+
+  ul>li>a {
+    display: inline;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+
+  .deliTextDescription {
+    font-size: 12px;
+  }
+
+  .downImage {
+    margin-top: -190px;
+    margin-left: 7%;
+    text-align: center;
+    width: 97%;
+  }
+
+
+  .downImageDescription {
+    color: #383b3f;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+
+  }
+
+  .downWrapper {
+    float: left;
+    width: 40%;
+  }
+
+
+  #appleImage {
+    width: 65px;
+  }
+
+  .downImageImage {
+   width: 70px;
+
+
+  }
+
+  .delicacyButton {
+    font-size: 11px;
+  }
+
+  .companyIntro {
+    margin-top: 1040px;
+  }
+
+  .deliTextCompany {
+    font-size: 18px;
+  }
+
+  .deliTextDescriptionCompany {
+    width: 80%;
+    margin-top: -20px;
+    margin-left: 10%;
+  }
+
+  .companyIntroWrapper {
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 17%;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 43%;
+  }
+
+  .companyIntroWrapper {
+    width: 94%;
+    margin-top: 60px;
+    margin-left: 8%;
+  }
+
+  #circleImage {
+    width: 55px;
+  }
+
+  .where {
+    width: 73px;
+  }
+
+  .whereTitle {
+    font-size: 12px;
+  }
+
+  .whereText {
+    font-size: 10px;
+  }
+
+  .downloadWrapper {
+    margin-left: 15%;
+  }
+
+  .videoFile {
+    width: 98%;
+  }
+
+  .deliTextCompany {
+    padding-left: 65px;
+  }
+
+  .logoWrapper {
+    width: 300px;
+  }
+
+  .panelMenu {
+    font-size: 15px;
+  }
+
+  .headText {
+    font-size: 15px;
+  }
+
+  .restaurantAddress {
+    font-size: 12px;
+  }
+
+  .restaurantHours {
+    font-size: 12px;
+  }
+
+  .restaurantPromotion {
+    font-size: 12px;
+  }
+
+  .socialMedia {
+    width: 30px;
+  }
+
+  .headText {
+    font-size: 18px;
+  }
+
+  #headText {
+    font-size: 14px;
+  }
+
+  .restaurantAddress {
+    font-size: 10px;
+  }
+
+  .restaurantHours {
+    font-size: 10px;
+    margin-left: 0.1px;
+  }
+
+  .restaurantPromotion {
+    font-size: 11px;
+  }
+
+  #infoSection {
+    width: 58%;
+  }
+
+
+}
+
+@media only screen and (max-width: 390px)  {
+
+
+  .logo {
+    width: 150px;
+    margin: 25px 0 0 95px;
+    float: left;
+  }
+
+  .logoWrapper {
+    text-align: center;
+    width: 300px;
+  }
+
+
+  .navigation {
+    margin-top: 20px;
+    padding-left: 75px;
+    width: 100%;
+  }
+
+
+  ul li {
+    padding: 5px;
+
+  }
+
+  ul>li>a {
+    display: inline;
+    color: white;
+    font-size: 11px;
+  }
+
+  .deliTextDescription {
+    font-size: 12px;
+  }
+
+  .downImage {
+    margin-top: -190px;
+    margin-left: 7%;
+    text-align: center;
+    width: 97%;
+  }
+
+
+  .downImageDescription {
+    color: #383b3f;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+
+  }
+
+  .downWrapper {
+    float: left;
+    width: 40%;
+  }
+
+
+  #appleImage {
+    width: 65px;
+  }
+
+  .downImageImage {
+   width: 70px;
+
+
+  }
+
+  .delicacyButton {
+    font-size: 11px;
+  }
+
+  .companyIntro {
+    margin-top: 1040px;
+  }
+
+  .deliTextCompany {
+    font-size: 18px;
+  }
+
+  .deliTextDescriptionCompany {
+    width: 80%;
+    margin-top: -20px;
+    margin-left: 10%;
+  }
+
+  .companyIntroWrapper {
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 17%;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+  .contactUsButton {
+    width: 120px;
+    height: 40px;
+    border: #f05223 solid 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 40%;
+  }
+
+  .companyIntroWrapper {
+    width: 94%;
+    margin-top: 60px;
+    margin-left: 8%;
+  }
+
+  #circleImage {
+    width: 55px;
+  }
+
+  .where {
+    width: 73px;
+  }
+
+  .whereTitle {
+    font-size: 12px;
+  }
+
+  .whereText {
+    font-size: 10px;
+  }
+
+  .downloadWrapper {
+    margin-left: 15%;
+  }
+
+  .videoFile {
+    width: 98%;
+  }
+
+  .deliTextCompany {
+    padding-left: 65px;
+  }
+
+  .benefitImage {
+    width: 240px;
+  }
+
+  .panelMenu {
+    font-size: 14px;
+  }
+
+  .headText {
+    font-size: 14px;
+  }
+
+  .restaurantAddress {
+    font-size: 11px;
+  }
+
+  .restaurantHours {
+    font-size: 11px;
+  }
+
+  .restaurantPromotion {
+    font-size: 11px;
+  }
+
+  .socialMedia {
+    width: 30px;
+    margin-left: 3%;
+
+  }
+
+  .logoIconSocialMedia {
+    width: 300px;
+    padding: 5px 5px;
+  }
+
+  #infoSection {
+    width: 58%;
+    padding-left: 3%;
+  }
+
+
+
+}

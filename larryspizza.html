@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurants</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/styleSub.css">
+  <link rel="icon" href="./assets/deliLogo.png">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar-fixed-top">
+
+    <div class="navWrapper" id="navbarNav">
+
+      <div class="logoWrapper col-md-4">
+        <a href="./index.html"><img class="logo" src="./assets/logo.png" alt=""></a>
+      </div>
+      <div class="col-md-8 items">
+      <ul class="navigation">
+        <li class="nav-item"><a class="nav-link content" href="./delimon.html">Delimon</a></li>
+        <li class="nav-item"><a class="nav-link content" href="./delicacy.html">Delicacy</a></li>
+        <li class="nav-item"><a class="nav-link content" href="./deliverymon.html">Deliverymon</a></li>
+        <li class="nav-item"><a class="nav-link content" href="./restaurants.html">Restaurants</a></li>
+
+
+      </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="restaurantTitle">
+    <p class="restaurantMain" id="restaurantMain">Restaurants</p>
+  </div>
+
+
+
+  <div class="restaurantWrapper" id="restaurantWrapper">
+
+    <div class="locationTitle">
+      <p class="location" id="location">Orange County</p>
+    </div>
+
+    <div class="sideDropdown" id="sideDropdown">
+
+      <button class="accordion">Artesia</button>
+        <div class="panel">
+
+          <li class="panelList"><a class="panelMenu" href="./nabeeya.html">Nabeeya</a></li>
+          <div class="panelSpace" style="height:1px;"></div>
+        </div>
+
+      <button class="accordion"><span class="acText">Buena Park</span></button>
+        <div class="panel">
+          <li class="panelList"><a class="panelMenu" href="./aria.html">Aria BBQ & Sushi</a></li>
+          <div class="panelSpace" style="height:1px;"></div>
+          <li class="panelList"><a class="panelMenu" href="./yogiyogi.html">Yogi Yogi</a></li>
+          <div class="panelSpace" style="height:1px;"></div>
+        </div>
+
+
+        <button class="accordion">Diamond Bar</button>
+          <div class="panel">
+
+            <li class="panelList"><a class="panelMenu" href="./phohana.html">Pho HANA</a></li>
+            <div class="panelSpace" style="height:1px;"></div>
+          </div>
+
+
+            <button class="accordion">Fullerton</button>
+              <div class="panel">
+                <li class="panelList"><a class="panelMenu" href="#">Hong Kong Express</a></li>
+                <div class="panelSpace" style="height:1px;"></div>
+                <li class="panelList"><a class="panelMenu" href="./larryspizza.html">Larry's Pizza</a></li>
+                <div class="panelSpace" style="height:1px;"></div>
+                <li class="panelList"><a class="panelMenu" href="./molcasalsa.html">Molca Salsa</a></li>
+                <div class="panelSpace" style="height:1px;"></div>
+                <li class="panelList"><a class="panelMenu" href="#">Soorah</a></li>
+                <div class="panelSpace" style="height:1px;"></div>
+                <li class="panelList"><a class="panelMenu" href="#">Sushi For You</a></li>
+                <div class="panelSpace" style="height:1px;"></div>
+              </div>
+
+                <button class="accordion">Norwalk</button>
+                  <div class="panel">
+                    <li class="panelList"><a class="panelMenu" href="#">Pocha 21</a></li>
+                    <div class="panelSpace" style="height:1px;"></div>
+                  </div>
+
+                    <button class="accordion">Orange</button>
+                      <div class="panel">
+                        <li class="panelList"><a class="panelMenu" href="#">Town & Country</a></li>
+                        <div class="panelSpace" style="height:1px;"></div>
+                      </div>
+
+                      <button class="accordion">Rowland Heights</button>
+                        <div class="panel">
+                          <li class="panelList"><a class="panelMenu" href="#">Jin Ju</a></li>
+                          <div class="panelSpace" style="height:1px;"></div>
+                        </div>
+
+                        <div class="restaurantInformation">
+
+                          <div class="restaurantHead">
+                            <p class="headText">Larry's Pizza</p>
+                          </div>
+
+
+                          <div class="informationNow">
+                        <div class="infoSection">
+                        <p class="restaurantAddress">926 W Orangethorpe Ave<br>
+                        Fullerton, CA 92832<br>
+                      1 714 871-3484</p>
+
+
+
+                        <p class="restaurantHours">Mon	11:00 am - 11:00 pm	<br>
+                        Tue	11:00 am - 11:00 pm	<br>
+                        Wed	11:00 am - 11:00 pm	<br>
+                        Thu	11:00 am - 11:00 pm	<br>
+                        Fri	11:00 am - 12:00 am	<br>
+                        Sat	11:00 am - 11:00 pm	<br>
+                        Sun	11:00 am - 11:00 pm</p>
+                                 </div>
+
+                      <div class="infoSection" id="infoSection">
+
+
+                        <div class="promotionHead">
+                          <p class="headText" id="headText">Promotion</p>
+                        </div>
+
+                          <p class="restaurantPromotion">
+                            1. Click Share and Like on Facebook.<br>
+                            2. Upload a picture, Like and Comment on Instagram<br>
+                            3. Click Share and Retweet on Twitter</p>
+                        </div>
+
+                        <div class="logoIconSocialMedia">
+                        <a href="#"><img src="./assets/facebook.png" class="socialMedia" target="facebook" alt="PhoHana"></a>
+                        <a href="#"><img src="./assets/Instagram.png" class="socialMedia" target="instgram" alt="PhoHana"></a>
+                        <a href="#"><img src="./assets/twitter.png" class="socialMedia" target="twitter" alt="PhoHana"></a>
+                        <a href="https://www.yelp.com/biz/larrys-pizza-and-sports-parlor-fullerton"><img src="./assets/yelp.png" class="socialMedia" target="Yelp" alt="PhoHana"></a>
+                        </div>
+</div>
+
+
+                        </div>
+
+
+</div>
+
+<div class="restaurantMenu">
+
+
+  <div class="menuWrapper">
+
+    <div class="foodWrapper">
+      <img src="./assets/LarrysPizza/logo.jpg" width="80%" alt="Larry's Pizza">
+      <hr style="width:90%;margin-left:5%; height:1px;">
+        <p class="menuTitle">Larry's Pizza</p>
+        <p class="menuPrice"></p>
+        <p class="menuDescription">Pizza, Sports Bars</p>
+    </div>
+
+
+  <div class="foodWrapper">
+    <img src="./assets/LarrysPizza/antipastosalad2.jpg" width="80%" alt="Antipasto Salad">
+    <hr style="width:90%;margin-left:5%; height:1px;">
+      <p class="menuTitle">Antipasto Salad</p>
+      <p class="menuPrice">$7.25</p>
+      <p class="menuDescription"></p>
+  </div>
+
+</div>
+
+<div class="foodWrapper">
+  <img src="./assets/LarrysPizza/gardensalad2.jpg" width="80%" alt="Garden Salad">
+  <hr style="width:90%;margin-left:5%; height:1px;">
+    <p class="menuTitle">Garden Salad</p>
+    <p class="menuPrice">$2.99</p>
+    <p class="menuDescription"></p>
+</div>
+
+
+
+<div class="foodWrapper">
+  <img src="./assets/LarrysPizza/bbqchickenpizza2.jpg" width="80%" alt="bbqchickenpizza">
+  <hr style="width:90%;margin-left:5%; height:1px;">
+    <p class="menuTitle">BBQ Chicken Pizza</p>
+    <p class="menuPrice">$16.49(M) $22.99(L) $24.99(Square)</p>
+    <p class="menuDescription"></p>
+</div>
+
+
+
+<div class="foodWrapper">
+  <img src="./assets/LarrysPizza/chickenalfredo2.jpg" width="80%" alt="Chicken Alfredo Pizza">
+  <hr style="width:90%;margin-left:5%; height:1px;">
+    <p class="menuTitle">Chicken Alfredo Pizza</p>
+    <p class="menuPrice">$16.49(M) $22.99(L) $24.99(Square)</p>
+    <p class="menuDescription"></p>
+</div>
+
+<div class="foodWrapper">
+  <img src="./assets/LarrysPizza/chorizosupreme2.jpg" width="80%" alt="Chorizo Supreme Pizza">
+  <hr style="width:90%;margin-left:5%; height:1px;">
+    <p class="menuTitle">Chorizo Supreme Pizza</p>
+    <p class="menuPrice">$16.49(M) $22.99(L) $24.99(Square)</p>
+    <p class="menuDescription"></p>
+</div>
+
+<div class="foodWrapper">
+  <img src="./assets/LarrysPizza/classiccombination2.jpg" width="80%" alt="Classic Combination Pizza">
+  <hr style="width:90%;margin-left:5%; height:1px;">
+    <p class="menuTitle">Classic Combination Pizza</p>
+    <p class="menuPrice">$16.49(M) $22.99(L) $24.99(Square)</p>
+    <p class="menuDescription"></p>
+</div>
+
+
+<div class="foodWrapper">
+  <img src="./assets/LarrysPizza/garlicchicken2.jpg" width="80%" alt="Garlic Chicken Pizza">
+  <hr style="width:90%;margin-left:5%; height:1px;">
+    <p class="menuTitle">Garlic Chicken Pizza</p>
+    <p class="menuPrice">$16.49(M) $22.99(L) $24.99(Square)</p>
+    <p class="menuDescription"></p>
+</div>
+
+<div class="foodWrapper">
+  <img src="./assets/LarrysPizza/primavera2.jpg" width="80%" alt="Primavera Pizza">
+  <hr style="width:90%;margin-left:5%; height:1px;">
+    <p class="menuTitle">Primavera Pizza</p>
+    <p class="menuPrice">$16.49(M) $22.99(L) $24.99(Square)</p>
+    <p class="menuDescription"></p>
+</div>
+
+<div class="foodWrapper">
+  <img src="./assets/LarrysPizza/cheesygarlicbread2.jpg" width="80%" alt="Garlic Cheese Bread">
+  <hr style="width:90%;margin-left:5%; height:1px;">
+    <p class="menuTitle">Grlic Cheese Bread</p>
+    <p class="menuPrice">$3.49</p>
+    <p class="menuDescription"></p>
+</div>
+
+<div class="foodWrapper">
+  <img src="./assets/LarrysPizza/hommade2.jpg" width="80%" alt="Homemade Bread Sticks">
+  <hr style="width:90%;margin-left:5%; height:1px;">
+    <p class="menuTitle">Homemade Bread Sticks</p>
+    <p class="menuPrice">$2.99</p>
+    <p class="menuDescription"></p>
+</div>
+
+<div class="foodWrapper">
+  <img src="./assets/LarrysPizza/wings.jpg" width="80%" alt="Mild Spicy Buffalo Wings">
+  <hr style="width:90%;margin-left:5%; height:1px;">
+    <p class="menuTitle">Mild Spicy Buffalo Wings</p>
+    <p class="menuPrice">$8.25</p>
+    <p class="menuDescription"></p>
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+
+      <div class="footerContent">
+     <img src="./assets/widelogo.png" width="320" alt="" id="footerLogo">
+
+
+     <div class="icons">
+    <a href="https://www.facebook.com/Delimonster-525494337799902/" target="facebook" alt="delimonsterFacebook"><img class="iconImage" src="./assets/facebook.png"></a>
+
+    <a href="https://www.instagram.com/delimonster_official/" target="Instagram" alt="delimonsterInstagram"><img class="iconImage" src="./assets/Instagram.png"></a>
+
+    <a href="https://twitter.com/Delimonster1" target="Twitter" alt="delimonsterTwitter"><img class="iconImage" src="./assets/twitter.png"></a>
+
+    <a href="./aboutus.html" target="delimonster" ><img class="iconImage" src="./assets/About-Us.png"></a>
+    </div>
+
+     <p class="copyright">Toll Free: 1-888-831-3004</p>
+     <p class="copyright">Customer Service: 1-657-212-9292</p>
+     <p class="copyright">Email: Info@delimonster.com</p>
+     <p class="copyright">©Delimonster Inc 2017</p>
+     </div>
+    </footer>
+
+
+  <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  }
+}
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
